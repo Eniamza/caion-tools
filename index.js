@@ -3,8 +3,8 @@ const readline = require('readline');
 const path = require('path');
 
 async function compare() {
-    const masterCsvPath = path.join(__dirname, 'master.csv');
-    const wordlist1Path = path.join(__dirname, 'wordlist1.csv');
+    const masterCsvPath = path.join(__dirname, 'masterv2.csv');
+    const wordlist1Path = path.join(__dirname, 'vocab2.csv');
 
     let masterArray = [];
     let wordlist1Array = [];
